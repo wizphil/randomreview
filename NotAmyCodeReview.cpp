@@ -38,8 +38,6 @@ Player PlayerManager::CreatePlayer(const char* name, int id)
 	return newplayer;
 }
 
-
-
 Player PlayerManager::GetPlayerById(int id)
 {
 	for (int i = 0; i < numPlayers; ++i)
